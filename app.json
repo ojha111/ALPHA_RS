@@ -1,6 +1,6 @@
 {
-    "name": "SPAMXD.",
-    "logo": "https://telegra.ph/file/816a63029c5ed26f3037a.jpg",
+    "name": "ALPHA_RS.",
+    "logo": "https://graph.org/file/bbae2c50b58056ecc4df7.jpg",
     "keywords": [
         "telegram",
         "telethon",
@@ -8,7 +8,7 @@
         "PythonX",
         "SpamBots"
     ],
-    "repository": "https://github.com/Sagexdd/SPAMXD",
+    "repository": "https://github.com/purvimusic/ALPHA_RS",
     "env": {
       "BOT_TOKEN": {
         "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
