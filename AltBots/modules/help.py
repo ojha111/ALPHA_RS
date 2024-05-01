@@ -1,4 +1,4 @@
-from telethon import events, Button
+yefrom telethon import events, Button
 
 from config import X1, X2, X3, X4, X5, X6, X7, X8, X9, X10, SUDO_USERS, CMD_HNDLR as hl
 
@@ -34,7 +34,7 @@ async def help(event):
     if event.sender_id in SUDO_USERS:
         try:
           await event.client.send_file(event.chat_id,
-              "https://telegra.ph/file/816a63029c5ed26f3037a.jpg",
+              "https://graph.org/file/bbae2c50b58056ecc4df7.jpg",
               caption=HELP_STRING,
               buttons=HELP_BUTTON
               )
