@@ -12,7 +12,7 @@ START_BUTTON = [
         Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/purvi_support")
     ],
     [
-        Button.url("• ʀᴇᴘᴏ •", "https://github.com/purvimusic/ALPHA_RS/fork")
+        Button.url("• ʀᴇᴘᴏ •", "https://github.com/purvimusic/ALPHA_RS")
     ]
 ]
 
