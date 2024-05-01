@@ -8,11 +8,11 @@ START_BUTTON = [
         Button.inline("• ᴄᴏᴍᴍᴀɴᴅs •", data="help_back")
     ],
     [
-        Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/team_nexz"),
-        Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/nexz_support")
+        Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/Purvi_UPdates"),
+        Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/purvi_support")
     ],
     [
-        Button.url("• ʀᴇᴘᴏ •", "https://github.com/Sagexdd/SPAMXD/fork")
+        Button.url("• ʀᴇᴘᴏ •", "https://github.com/purvimusic/ALPHA_RS/fork")
     ]
 ]
 
@@ -34,13 +34,13 @@ async def start(event):
         bot_name = AltBot.first_name
         bot_id = AltBot.id
         TEXT = f"**ʜᴇʏ​ [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\nɪ ᴀᴍ [{bot_name}](tg://user?id={bot_id})​**\n━━━━━━━━━━━━━━━━━━━\n\n"
-        TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ : [ɴᴇxᴢ](https://t.me/nexzz_op)**\n\n"
+        TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ : [ᴀʟᴘʜᴀ](https://t.me/your_alpha_baby)**\n\n"
         TEXT += f"» **xʙᴏᴛꜱ ᴠᴇʀsɪᴏɴ :** `M3.3`\n"
         TEXT += f"» **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `3.11.3`\n"
         TEXT += f"» **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{__version__}`\n━━━━━━━━━━━━━━━━━"
         await event.client.send_file(
                     event.chat_id,
-                    "https://telegra.ph/file/816a63029c5ed26f3037a.jpg",
+                    "https://graph.org/file/bbae2c50b58056ecc4df7.jpg",
                     caption=TEXT, 
                     buttons=START_BUTTON
                 )
