@@ -9,7 +9,7 @@ START_BUTTON = [
     ],
     [
         Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/Purvi_UPdates"),
-        Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/MR_ERROR_DADDY")
+        Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/ERROR_FIGHTERS")
     ],
     [
         Button.url("• ʀᴇᴘᴏ •", "https://github.com/purvimusic/ALPHA_RS")
