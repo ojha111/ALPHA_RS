@@ -31,8 +31,8 @@ START_BUTTON = [
 async def start(event):              
     if event.is_private:
         AltBot = await event.client.get_me()
-        bot_name = MR ERROR.first_name
-        bot_id = MR ERROR.id
+        bot_name = AltBot.first_name
+        bot_id = AltBot.id
         TEXT = f"**ʜᴇʏ​ [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\nɪ ᴀᴍ [{bot_name}](tg://user?id={bot_id})​**\n━━━━━━━━━━━━━━━━━━━\n\n"
         TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ : [ᴀʟᴘʜᴀ](https://t.me/MR_ERROR_DADDY)**\n\n"
         TEXT += f"» **xʙᴏᴛꜱ ᴠᴇʀsɪᴏɴ :** `M3.3`\n"
